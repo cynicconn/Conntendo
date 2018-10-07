@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Mappers">
+      <UniqueIdentifier>{c4a83f17-0422-454c-8b1c-c57c0c7640d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mappers">
+      <UniqueIdentifier>{998f1fb6-96af-4a0a-8abe-e46722b11d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nes_Snd_Emu">
+      <UniqueIdentifier>{13abbf7d-da29-4917-802d-3430db654733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nes_Snd_Emu">
+      <UniqueIdentifier>{a9fcb2c1-e637-440e-add1-ca77e362f33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nes_Snd_Emu\nes_apu">
+      <UniqueIdentifier>{b9894339-2f0a-4095-9833-53ecc9338938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nes_Snd_Emu\nes_apu">
+      <UniqueIdentifier>{d19c2070-3981-41d3-bb5d-f7891486241a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Nes_Snd_Emu\boost">
+      <UniqueIdentifier>{6bafe83e-413c-46d6-8c88-ea32ad998b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zlib">
+      <UniqueIdentifier>{1d5bfcee-dbf8-4573-956f-fb4cd18b19ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nes_Snd_Emu\Sound_Queue.cpp">
+      <Filter>Source Files\Nes_Snd_Emu</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes_Snd_Emu\nes_apu\apu_snapshot.cpp">
+      <Filter>Source Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes_Snd_Emu\nes_apu\Blip_Buffer.cpp">
+      <Filter>Source Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes_Snd_Emu\nes_apu\Multi_Buffer.cpp">
+      <Filter>Source Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes_Snd_Emu\nes_apu\Nes_Apu.cpp">
+      <Filter>Source Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes_Snd_Emu\nes_apu\Nes_Oscs.cpp">
+      <Filter>Source Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes_Snd_Emu\nes_apu\Nonlinear_Buffer.cpp">
+      <Filter>Source Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper1.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper2.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper4.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper9.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper3.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper7.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper66.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper25.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper11.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper69.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\apu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\cartridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ConnForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\cpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\dev.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\emulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\files.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\joypad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\palette.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ppu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper10.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers\mapper5.cpp">
+      <Filter>Source Files\Mappers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nes_Snd_Emu\Sound_Queue.h">
+      <Filter>Header Files\Nes_Snd_Emu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\apu_snapshot.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\blargg_source.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\Blip_Buffer.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\Blip_Synth.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\Multi_Buffer.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\Nes_Apu.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\Nes_Oscs.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\Nonlinear_Buffer.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\nes_apu\blargg_common.h">
+      <Filter>Header Files\Nes_Snd_Emu\nes_apu</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\boost\config.hpp">
+      <Filter>Header Files\Nes_Snd_Emu\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\boost\cstdint.hpp">
+      <Filter>Header Files\Nes_Snd_Emu\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes_Snd_Emu\boost\static_assert.hpp">
+      <Filter>Header Files\Nes_Snd_Emu\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper0.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper1.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper2.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper4.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper9.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper3.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper7.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>Header Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper66.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper25.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper11.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper69.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\apu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\cartridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ConnForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\dev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\emulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\joypad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\palette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ppu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper10.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers\mapper5.h">
+      <Filter>Header Files\Mappers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Conntendo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConnForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\conntendologo_x2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
