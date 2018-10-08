@@ -2,6 +2,11 @@
 x86 NES Emulator written in C++ using WinForms and SDL API 
 
 ## Screenshots
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/27335324/46614594-d7161f80-cadb-11e8-90ed-ff381d46e832.png" width="260" />
+  <img src="https://user-images.githubusercontent.com/27335324/46614548-ba79e780-cadb-11e8-83a8-defd2ed7eada.png" width="260" /> 
+  <img src="https://user-images.githubusercontent.com/27335324/46614937-a682b580-cadc-11e8-8eb5-d22d3371e208.png" width="260" />
+</p>
 
 ## Building and Running
 The project was created with the following;
