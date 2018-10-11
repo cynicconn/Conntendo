@@ -49,7 +49,7 @@ Conntendo has the following Mappers implemented; giving the emulator over 90% co
 * Mapper 9: 	MMC2
 * Mapper 10:	MMC4
 * Mapper 11:	Color Dreams
-* Mapper 25^:	VRC4 
+* Mapper 25:	VRC4^
 * Mapper 66: 	GxROMs
 * Mapper 69: 	Sunsoft FME-7
 
