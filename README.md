@@ -28,6 +28,14 @@ This project includes the VS files along with all requird library and header fil
 The contents of Folder _BuildDependancies_ must be put into the Debug/Release folder of the compiled Conntendo project.
 The executable will not run unless all Resources and library files are found.
 
+## Features
+Conntendo has pretty standard emulator features; savestates, input customization, joystick support, etc.
+There are several PPU options including;
+* Nametable Viewer
+* Patterntable Viewer
+* Color Palette Swap (to mimic other console palettes)
+* Toggle Sprite/Background Rendering
+
 ## Mappers
 Conntendo has the following Mappers implemented; giving the emulator over 90% compatibility
 
